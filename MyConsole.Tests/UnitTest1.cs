@@ -8,8 +8,9 @@ public class Tests
     }
 
     [Test]
-    public void PassingTest1()
+    public void PassingTest1([Values(1, 2)] int value)
     {
+        Console.WriteLine(value);
         Assert.Pass();
     }
 
