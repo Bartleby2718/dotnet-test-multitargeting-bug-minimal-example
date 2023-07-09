@@ -15,3 +15,4 @@ curl -o ./.gitignore https://raw.githubusercontent.com/github/gitignore/main/Vis
 
 # Manual changes
 - Added failing tests
+- Do multi-targeting in MyConsole.Tests
